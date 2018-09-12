@@ -15,6 +15,8 @@ file_open = File.open(file_again)
 print file_open.read
 file_open.close
 
+
+## use if conditions to check if file is opened or closed
 unless file_open.closed?
     puts "file is not closed"
     file_open.close
