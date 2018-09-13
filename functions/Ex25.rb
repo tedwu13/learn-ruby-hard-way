@@ -30,7 +30,6 @@ module Ex25
 
     def Ex25.sort_sentence(sentence)
         # takes in a sentence of words(string), can break them and sort them
-
         words = Ex25.break_words(sentence)
         return Ex25.sort_words(words)
     end
