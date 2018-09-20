@@ -34,3 +34,18 @@ stuff = TestModule.new()
 puts stuff.apple() #calling a function
 puts stuff.tangerine # printing out an attribute
 
+class Song
+    def initialize(lyrics)
+        @lyrics = lyrics
+    end
+
+    def sing_a_song()
+        @lyrics.each do |line|
+            puts line
+        end
+    end
+end
+
+
+new_song = Song.new(["hello my name is ted", "i like LALALA"])
+puts new_song.sing_a_song

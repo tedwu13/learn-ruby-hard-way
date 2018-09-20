@@ -1,0 +1,4 @@
+instance variables @
+class variables @@ 
+
+Class variables are shared among other instances of a class
